@@ -1,0 +1,31 @@
+<ion-view view-title="Home" class="home-page">
+  <ion-content>
+  	<div ng-repeat="eachProduct in allProducts" 
+  		ng-click="loadDetails(eachProduct)" class="row">
+	  	<div class="col">
+	  		<div class="card">
+			  <div class="item item-product">
+			  	<div class="item-image-container">
+					<img ng-src={{eachProduct.image}}></img>
+			  	</div>
+			  	<div class="item-info-container">
+					<div class="brand-name">{{eachProduct.name}}</div>
+					<div class="brand-extra-info">{{eachProduct.info}}</div>
+					<div class="brand-price">{{eachProduct.price | currency:"INR ":0 }}</div>
+			  	</div>
+			  </div>
+			</div>
+	  	</div>
+	</div>
+	<ion-infinite-scroll
+	  	ng-if="isMoreProductsAvailable"
+	  	on-infinite="loadMoreProducts()"
+	  	distance="1%"
+	  	spinner="android">
+	</ion-infinite-scroll>
+	<div class="no-more-results-msg" ng-if="!isMoreProductsAvailable">
+		That's all folks!
+		<a href="#/app/about">Go to music page!</a>
+	</div>
+  </ion-content>
+</ion-view>

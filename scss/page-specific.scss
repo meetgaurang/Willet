@@ -1,0 +1,51 @@
+// Header bar
+.bar.bar-stable {
+	background-color: $redThemeColor;
+	.title {
+		color: #fff;
+	}
+	.ion-navicon {
+		color: #fff;
+	}
+}
+
+// Home page
+.home-page {
+	.card {
+	    margin: 0px 0px;
+	    .item {
+	    	padding: 8px;
+		    .item-image-container {
+		    	float: left;
+		    	width: 110px;
+		    }
+		    .item-info-container {
+		    	overflow: hidden;
+		    	padding-left: 5px;
+		    	text-align: left;
+		    	.brand-name {
+					font-size: $font-size-big;
+					color: #000000;
+			    }
+			    .brand-extra-info {
+					font-size: $font-size-medium;
+					color: $gray;
+			    }
+			    .brand-price {
+			    	font-size: $font-size-base;
+			    	margin-top: 5px;
+			    	font-weight: bold;
+			    }
+		    }
+		}
+	}
+
+	.item-product {
+		text-align: center;
+	}
+	.no-more-results-msg {
+		padding: 5px;
+		text-align: center;
+		color: $gray;
+	}
+}

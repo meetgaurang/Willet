@@ -1,0 +1,56 @@
+.sidebar-content {
+	.sidebar-willet-logo-container {
+		/*text-align: center;
+		padding: 10px 20px 10px 0px;
+	    color: #fff;*/
+		img {
+			width: 300px;
+	    	position: relative;
+	    	left: 50px;
+	    	opacity: 0.5;
+		}
+		h3 {
+			display: inline;
+			font-size: 30px;
+	    	color: $redThemeColor;
+	    	position: relative;
+	    	bottom: 20px;
+		}
+	}
+	.welcome-username {
+		padding: 4px 0 0 16px;
+    	height: 30px;
+    	vertical-align: middle;
+    	background-color: $redThemeColor;
+    	h5 {
+    		color: #fff;
+    		margin: 0px;
+    		display: inline-block;
+    		position: relative;
+    		bottom: 5px;
+    	}
+    	img {
+    		width: 24px;
+    		border-radius: 12px;
+    	}
+	}
+	ion-item {
+		font-size: 16px;
+		div {
+			display: inline-block;
+			width: 15px;
+		}
+	}
+	.scroll {
+		height: 100%;
+	}
+	.copyright-content {
+		position: fixed;
+		bottom: 0px;
+		padding-bottom: 10px;
+	    text-align: center;
+	    width: 100%;
+	    color: $redThemeColor;
+	    font-size: 12px;
+   	}
+}
