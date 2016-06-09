@@ -6,6 +6,7 @@
       "name": "iPhone 6s",
       "info": "White, 16GB",
       "image": "img/products/apple-iphone-6s.jpeg",
+      "largeImage": "img/products/apple-iphone-6s-large.jpeg",
       "price": 46499
     },
     {
@@ -14,6 +15,7 @@
       "name": "Blackberry Porsche",
       "info": "Black, 64GB",
       "image": "img/products/blackberry-porsche.jpeg",
+      "largeImage": "img/products/blackberry-porsche-large.jpeg",
       "price": 59990
     },
     {
@@ -22,6 +24,7 @@
       "name": "HTC One M9",
       "info": "Space Grey, 16GB",
       "image": "img/products/htc-one-m9.jpeg",
+      "largeImage": "img/products/htc-one-m9-large.jpeg",
       "price": 31500
     },
     {
@@ -30,6 +33,7 @@
       "name": "Huawei Nexus 6P",
       "info": "White, 16GB",
       "image": "img/products/huawei-nexus-6p.jpeg",
+      "largeImage": "img/products/huawei-nexus-6p-large.jpeg",
       "price": 39999
     },
     {
@@ -38,6 +42,7 @@
       "name": "LG G4",
       "info": "Shiny Gold, 32GB",
       "image": "img/products/lg-g4.jpeg",
+      "largeImage": "img/products/lg-g4-large.jpeg",
       "price": 35899
     },
     {
@@ -46,6 +51,7 @@
       "name": "Motorola Moto X Force",
       "info": "White, 16GB",
       "image": "img/products/motorola-moto-x-force.jpeg",
+      "largeImage": "img/products/motorola-moto-x-force-large.jpeg",
       "price": 32199
     },
     {
@@ -54,6 +60,7 @@
       "name": "Samsung Galaxy S6 Edge",
       "info": "Gold Platinum, 32GB",
       "image": "img/products/samsung-galaxy-s6-edge.jpeg",
+      "largeImage": "img/products/samsung-galaxy-s6-edge-large.jpeg",
       "price": 40900
     },
     {
@@ -62,6 +69,7 @@
       "name": "Samsung Note 4",
       "info": "Charcoal Black, 32GB",
       "image": "img/products/samsung-note-4.jpeg",
+      "largeImage": "img/products/samsung-note-4-large.jpeg",
       "price": 35840
     },
     {
@@ -70,6 +78,7 @@
       "name": "Samsung Note 5",
       "info": "White, 16GB",
       "image": "img/products/samsung-note-5.jpeg",
+      "largeImage": "img/products/samsung-note-5-large.jpeg",
       "price": 39900
     },
     {
@@ -78,6 +87,7 @@
       "name": "Sony Xperia Z5 Premium",
       "info": "Black, 32GB",
       "image": "img/products/sony-xperia-z5-premium.jpeg",
+      "largeImage": "img/products/sony-xperia-z5-premium-large.jpeg",
       "price": 39999
     }
   ]

@@ -1,5 +1,16 @@
-<ion-view view-title="Details">
+<ion-view view-title="Details" class="product-details-page">
   <ion-content>
-    <h1>Product Details</h1>
+    <div ng-product-images class="owl-carousel owl-theme product-images-carousel">
+	    <div class="item">
+	    	<img ng-src={{selectedProduct.largeImage}}></img>
+	    </div>
+	    <div class="item">
+	    	<img ng-src="img/products/placeholder-image.jpeg"></img>
+	    </div>
+	    <div class="item">
+	    	<img ng-src="img/products/placeholder-image.jpeg"></img>
+	    </div>
+	</div>
+	<span>{{selectedProduct.name}}</span>
   </ion-content>
 </ion-view>

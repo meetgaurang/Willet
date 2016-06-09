@@ -9820,6 +9820,9 @@ $font-size-base:                  14px !default;
 $font-size-large:                 18px !default;
 $font-size-small:                 11px !default;
 */
+.sidebar-content .scroll {
+  padding: 0px; }
+
 .sidebar-content .sidebar-willet-logo-container {
   /*text-align: center;
 		padding: 10px 20px 10px 0px;
@@ -9873,6 +9876,21 @@ $font-size-small:                 11px !default;
   stroke: #808080;
   fill: #808080; }
 
+.bar.bar-stable {
+  background-color: #BC212D; }
+  .bar.bar-stable .title {
+    color: #fff; }
+  .bar.bar-stable .ion-navicon {
+    color: #fff; }
+  .bar.bar-stable .header-item {
+    color: #fff; }
+
+ion-content .scroll {
+  padding: 10px 10px 0px 10px; }
+
+.sidebar-content .scroll {
+  padding: 0px; }
+
 .sidebar-content .sidebar-willet-logo-container {
   /*text-align: center;
 		padding: 10px 20px 10px 0px;
@@ -9922,13 +9940,6 @@ $font-size-small:                 11px !default;
   color: #BC212D;
   font-size: 12px; }
 
-.bar.bar-stable {
-  background-color: #BC212D; }
-  .bar.bar-stable .title {
-    color: #fff; }
-  .bar.bar-stable .ion-navicon {
-    color: #fff; }
-
 .home-page .card {
   margin: 0px 0px; }
   .home-page .card .item {
@@ -9958,3 +9969,11 @@ $font-size-small:                 11px !default;
   padding: 5px;
   text-align: center;
   color: #808080; }
+
+.product-details-page .product-images-carousel .item {
+  text-align: center;
+  border: 0px;
+  padding-bottom: 0px; }
+  .product-details-page .product-images-carousel .item img {
+    width: 130px;
+    display: inline; }

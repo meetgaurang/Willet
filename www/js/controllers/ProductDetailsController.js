@@ -1,4 +1,5 @@
 angular.module('appwillet.controllers')
-.controller('ProductDetailsController', function($scope, $ionicModal, $timeout) {
-	
-});
+.controller('ProductDetailsController', ['$scope', '$rootScope',
+	function($scope, $rootScope) {
+			
+}]);

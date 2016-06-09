@@ -1,4 +1,24 @@
+// Spinner
 .spinner svg {
   stroke: $gray;
   fill:  $gray;
+}
+
+// Header bar
+.bar.bar-stable {
+	background-color: $redThemeColor;
+	.title {
+		color: #fff;
+	}
+	.ion-navicon {
+		color: #fff;
+	}
+	.header-item {
+		color: #fff;
+	}
+}
+
+// Page content spacing
+ion-content .scroll{
+	padding: 10px 10px 0px 10px;
 }

@@ -1,14 +1,3 @@
-// Header bar
-.bar.bar-stable {
-	background-color: $redThemeColor;
-	.title {
-		color: #fff;
-	}
-	.ion-navicon {
-		color: #fff;
-	}
-}
-
 // Home page
 .home-page {
 	.card {
@@ -39,7 +28,6 @@
 		    }
 		}
 	}
-
 	.item-product {
 		text-align: center;
 	}
@@ -47,5 +35,21 @@
 		padding: 5px;
 		text-align: center;
 		color: $gray;
+	}
+}
+
+// Product details page
+.product-details-page {
+	.product-images-carousel {
+		.item {
+			text-align: center;
+			border: 0px;
+			padding-bottom: 0px;
+			
+			img {
+				width: 130px;
+				display: inline;
+			}
+		}
 	}
 }
