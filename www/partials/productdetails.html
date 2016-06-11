@@ -11,6 +11,12 @@
 	    	<img ng-src="img/products/placeholder-image.jpeg"></img>
 	    </div>
 	</div>
-	<span>{{selectedProduct.name}}</span>
+	<div class="product-major-info">
+		<h4>{{selectedProduct.name}}</h4>
+		<label>Price</label> 
+		<div class="price">
+			<h4>{{selectedProduct.price | currency:"INR ":0 }}</h4>
+		</div>
+	</div>
   </ion-content>
 </ion-view>

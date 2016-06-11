@@ -52,4 +52,14 @@
 			}
 		}
 	}
+	.product-major-info {
+		text-align: center;
+
+		h4 {
+			margin-top: 0px;
+		}
+		.price, .price h4 {
+			display: inline;
+		}
+	}
 }

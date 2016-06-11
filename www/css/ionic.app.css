@@ -9977,3 +9977,10 @@ ion-content .scroll {
   .product-details-page .product-images-carousel .item img {
     width: 130px;
     display: inline; }
+
+.product-details-page .product-major-info {
+  text-align: center; }
+  .product-details-page .product-major-info h4 {
+    margin-top: 0px; }
+  .product-details-page .product-major-info .price, .product-details-page .product-major-info .price h4 {
+    display: inline; }
