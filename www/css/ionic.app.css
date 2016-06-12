@@ -9820,6 +9820,20 @@ $font-size-base:                  14px !default;
 $font-size-large:                 18px !default;
 $font-size-small:                 11px !default;
 */
+.nav-tabs .active {
+  border-bottom: 2px solid #BC212D; }
+
+.nav-tabs li {
+  font-size: 16px;
+  width: 50%;
+  text-align: center; }
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+  border: 0px; }
+
+.nav-tabs > li > a {
+  color: #000000; }
+
 .sidebar-content .scroll {
   padding: 0px; }
 
@@ -9984,3 +9998,6 @@ ion-content .scroll {
     margin-top: 0px; }
   .product-details-page .product-major-info .price, .product-details-page .product-major-info .price h4 {
     display: inline; }
+
+.product-details-page .review-n-details-container .willet-tabs .willet-tab {
+  width: 49%; }

@@ -18,5 +18,38 @@
 			<h4>{{selectedProduct.price | currency:"INR ":0 }}</h4>
 		</div>
 	</div>
+	<div class="review-n-details-container">
+		<!-- <ul class="willet-tabs">
+			<li class="willet-tab" ng-click="detailsReviewsToggle = true">
+				Details
+			</li>
+			<li class="willet-tab" ng-click="detailsReviewsToggle = false">
+				Reviews
+			</li>
+		</ul>
+		<div class="willet-tab-panels">
+			<div ng-if="detailsReviewsToggle" class="willet-tab-panel">
+				1
+			</div>
+			<div ng-if="!detailsReviewsToggle" class="willet-tab-panel">
+				2
+			</div>
+		</div> -->
+
+		<!-- Nav tabs -->
+		<ul willet-tab-panel class="nav nav-tabs" role="tablist">
+			<li role="presentation" class="active">
+				<a href="#details" aria-controls="home" role="tab" data-toggle="tab">Details</a>
+			</li>
+			<li role="presentation">
+				<a href="#reviews" aria-controls="profile" role="tab" data-toggle="tab">Reviews</a>
+			</li>
+		</ul>
+		<!-- Tab panes -->
+		<div class="tab-content">
+			<div role="tabpanel" class="tab-pane active" id="details">Details</div>
+			<div role="tabpanel" class="tab-pane" id="reviews">Reviews</div>
+		</div>
+	</div>
   </ion-content>
 </ion-view>

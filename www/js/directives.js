@@ -12,3 +12,15 @@ angular.module('appwillet.directives')
 		}
 	};
  });
+
+ angular.module('appwillet.directives')
+ .directive("willetTabPanel", function() {
+ 	return {
+	    link: function(scope, element, attrs){
+	    	$(element).find('a').click(function (e) {
+			  e.preventDefault()
+			  $(this).tab('show')
+			});
+		}
+	};
+ });
