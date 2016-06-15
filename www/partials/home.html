@@ -25,7 +25,9 @@
 	</ion-infinite-scroll>
 	<div class="no-more-results-msg" ng-if="!isMoreProductsAvailable">
 		That's all folks!
-		<a href="#/app/about">Go to music page!</a>
 	</div>
   </ion-content>
+  <div class="filter-icon" ng-click="openFilterModal()">
+	<i class="icon ion-funnel"></i>
+  </div>
 </ion-view>

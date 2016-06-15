@@ -11,9 +11,28 @@ angular.module('appwillet.controllers')
   		alert("Error..");
   	});
 
+    // Define filter modal
+    $ionicModal.fromTemplateUrl('partials/productfiltermodal.html', {
+      scope: $scope,
+      animation: 'slide-in-up',
+      hardwareBackButtonClose: true
+    }).then(function(modal) {
+      $scope.filterModal = modal;
+    });
+    $scope.openFilterModal = function() {
+      $scope.filterModal.show();
+    };
+    $scope.closeFilterModal = function() {
+      $scope.filterModal.hide();
+    };
+    // Cleanup the modal when we're done with it!
+    $scope.$on('$destroy', function() {
+      $scope.filterModal.remove();
+    });
+
   	// Load next page
   	$scope.loadMoreProducts = function() {
-  		if($scope.allProducts.length > 40) {
+  		if($scope.allProducts.length > 30) {
   			$scope.isMoreProductsAvailable = false;
   		}
   		else {

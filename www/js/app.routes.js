@@ -25,12 +25,12 @@ angular.module('appwillet')
       }
     }
   })
-  .state('app.contactus', {
-    url: '/contactus',
+  .state('app.timeline', {
+    url: '/timeline',
     views: {
       'menuContent': {
-        templateUrl: 'partials/contactus.html',
-        controller: 'ContactUsController'
+        templateUrl: 'partials/timeline.html',
+        controller: 'TimelineController'
       }
     }
   })

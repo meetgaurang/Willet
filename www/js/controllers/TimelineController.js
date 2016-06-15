@@ -1,5 +1,5 @@
 angular.module('appwillet.controllers')
-.controller('ContactUsController', function($scope, $ionicModal, $timeout) {
+.controller('TimelineController', function($scope, $ionicModal, $timeout) {
 
   // With the new view caching in Ionic, Controllers are only called
   // when they are recreated or on app start, instead of every page change.

@@ -19,23 +19,6 @@
 		</div>
 	</div>
 	<div class="review-n-details-container">
-		<!-- <ul class="willet-tabs">
-			<li class="willet-tab" ng-click="detailsReviewsToggle = true">
-				Details
-			</li>
-			<li class="willet-tab" ng-click="detailsReviewsToggle = false">
-				Reviews
-			</li>
-		</ul>
-		<div class="willet-tab-panels">
-			<div ng-if="detailsReviewsToggle" class="willet-tab-panel">
-				1
-			</div>
-			<div ng-if="!detailsReviewsToggle" class="willet-tab-panel">
-				2
-			</div>
-		</div> -->
-
 		<!-- Nav tabs -->
 		<ul willet-tab-panel class="nav nav-tabs" role="tablist">
 			<li role="presentation" class="active">
@@ -47,8 +30,33 @@
 		</ul>
 		<!-- Tab panes -->
 		<div class="tab-content">
-			<div role="tabpanel" class="tab-pane active" id="details">Details</div>
-			<div role="tabpanel" class="tab-pane" id="reviews">Reviews</div>
+			<!-- Details tab pane starts -->
+			<div role="tabpanel" class="tab-pane active" id="details">
+				<div class="card">
+					<div class="item item-text-wrap">
+						<label class="specs-title">About</label>
+						No product description available.
+					</div>
+				</div>
+				<div class="card">
+				  <div class="item item-text-wrap">
+				  	<label class="specs-title">Key Specifications</label>
+				    <ul>
+				    	<li>Display and screen size specs</li>
+				    	<li>Front and rear camera specs</li>
+				    	<li>Battery specs</li>
+				    </ul>
+				  </div>
+				</div>
+			</div>
+			<!-- Reviews tab pane starts -->
+			<div role="tabpanel" class="tab-pane" id="reviews">
+				<div class="card">
+					<div class="item item-text-wrap">
+						Reviews are not available at the moment.
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
   </ion-content>
