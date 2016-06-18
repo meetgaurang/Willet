@@ -9835,6 +9835,19 @@ $font-size-small:                 11px !default;
 .nav-tabs > li > a {
   color: #000000; }
 
+.rzslider .rz-pointer {
+  top: -10px;
+  width: 24px;
+  height: 24px;
+  background-color: #fff;
+  border: 1px solid #808080; }
+
+.rzslider .rz-pointer:after, .rzslider .rz-pointer.rz-active {
+  background: #fff !important; }
+
+.rzslider .rz-bar.rz-selection {
+  background: #BC212D; }
+
 .sidebar-content .scroll {
   padding: 0px; }
 
@@ -9899,6 +9912,10 @@ $font-size-small:                 11px !default;
     color: #fff; }
   .bar.bar-stable .header-item {
     color: #fff; }
+
+.button.button-stable {
+  background-color: #BC212D;
+  color: #fff; }
 
 ion-content .scroll {
   padding: 10px 10px 0px 10px; }
@@ -10000,6 +10017,14 @@ ion-content .scroll {
 
 .home-page .ion-funnel:before {
   padding-top: 7px; }
+
+.product-filter-modal ion-header-bar .button.button-clear {
+  color: #000; }
+
+.product-filter-modal h4 {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 4px;
+  font-size: 16px; }
 
 .product-details-page .product-images-carousel .item {
   text-align: center;

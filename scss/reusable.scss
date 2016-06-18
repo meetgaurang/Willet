@@ -18,6 +18,11 @@
 	}
 }
 
+.button.button-stable {
+	background-color: $redThemeColor;
+	color: #fff;
+}
+
 // Page content spacing
 ion-content .scroll{
 	padding: 10px 10px 0px 10px;

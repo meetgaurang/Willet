@@ -53,7 +53,19 @@
 		padding-top: 7px;
 	}
 }
-
+// Product filter modal
+.product-filter-modal {
+	ion-header-bar {
+		.button.button-clear {
+			color: #000;
+		}
+	}
+	h4 {
+		border-bottom: 1px solid $lightGray;
+		padding-bottom: 4px;
+		font-size: 16px;
+	}
+}
 // Product details page
 .product-details-page {
 	.product-images-carousel {

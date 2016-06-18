@@ -7,7 +7,7 @@
 angular.module('appwillet.controllers', []);
 angular.module('appwillet.services', []);
 angular.module('appwillet.directives', []);
-angular.module('appwillet', ['ionic', 'ngMockE2E', 'ngResource', 'appwillet.controllers', 
+angular.module('appwillet', ['ionic', 'ngMockE2E', 'rzModule', 'ngResource', 'appwillet.controllers', 
   'appwillet.services', 'appwillet.directives']);
 
 angular.module('appwillet')

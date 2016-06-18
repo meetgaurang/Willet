@@ -15,3 +15,20 @@
 	color: #000000;
 }
 // Overriding Bootstrap Nav tabs ends
+
+// AngularJS Slider styling starts
+.rzslider .rz-pointer {
+	top: -10px;
+	width: 24px;
+    height: 24px;
+    background-color: #fff;
+    border: 1px solid $gray;
+}
+.rzslider .rz-pointer:after, .rzslider .rz-pointer.rz-active {
+	background: #fff !important;
+}
+.rzslider .rz-bar.rz-selection {
+	background: $redThemeColor;//rgba(188, 33, 45, 0.31);
+}
+
+// AngularJS Slider styling ends

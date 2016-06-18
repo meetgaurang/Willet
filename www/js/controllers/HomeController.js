@@ -29,6 +29,16 @@ angular.module('appwillet.controllers')
     $scope.$on('$destroy', function() {
       $scope.filterModal.remove();
     });
+    $scope.slider = {
+      minValue: 8000,
+      maxValue: 30000,
+      options: {
+          floor: 2499,
+          ceil: 85999,
+          step: 1,
+          noSwitching: true
+      }
+    };
 
   	// Load next page
   	$scope.loadMoreProducts = function() {
