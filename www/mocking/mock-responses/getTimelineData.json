@@ -1,0 +1,151 @@
+{
+  "data": [
+    {
+      "year": 2016,
+      "events": [
+        {
+          "eventType": "bon-voyage",
+          "place": "Goa, India"
+        }
+      ]
+    },
+    {
+      "year": 2015,
+      "events": [
+        {
+          "eventType": "bon-voyage",
+          "place": "Cape Town, South Africa"
+        },
+        {
+          "eventType": "work-experience",
+          "companyName": "Zensar Technologies",
+          "trigger": "entry"
+        },
+        {
+          "eventType": "work-experience",
+          "companyName": "Amdocs",
+          "trigger": "exit"
+        }
+      ]
+    },
+    {
+      "year": 2014,
+      "events": [
+        {
+          "eventType": "bon-voyage",
+          "place": "Chicago, United States"
+        }
+      ]
+    },
+    {
+      "year": 2013,
+      "events": [
+        {
+          "eventType": "bon-voyage",
+          "place": "Tel Aviv, Jerusalem (Israel)"
+        }
+        {
+          "eventType": "bon-voyage",
+          "place": "Phuket, Thailand"
+        }
+      ]
+    },
+    {
+      "year": 2012,
+      "events": [
+        {
+          "eventType": "bon-voyage",
+          "place": "Tel Aviv, Jerusalem (Israel)"
+        }
+      ]
+    },
+    {
+      "year": 2011,
+      "events": [
+        {
+          "eventType": "work-experience",
+          "companyName": "Amdocs",
+          "trigger": "entry"
+        },
+        {
+          "eventType": "work-experience",
+          "companyName": "HSBC",
+          "trigger": "exit"
+        }
+      ]
+    },
+    {
+      "year": 2010,
+      "events": [
+        {
+          "eventType": "certification",
+          "certificationName": "Oracle Certified Java EE 5 Web Component Developer"
+        }
+      ]
+    },
+    {
+      "year": 2009,
+      "events": [
+        {
+          "eventType": "work-experience",
+          "companyName": "HSBC",
+          "trigger": "entry"
+        },
+        {
+          "eventType": "certification",
+          "certificationName": "Sun Certified Java Programmer (Java SE 5.0)"
+        },
+        {
+          "eventType": "training",
+          "companyName": "Seed Infotech",
+          "trigger": "exit"
+        }
+      ]
+    },
+    {
+      "year": 2008,
+      "events": [
+        {
+          "eventType": "training",
+          "companyName": "Seed Infotech",
+          "trigger": "entry"
+        },
+        {
+          "eventType": "education",
+          "degreeName": "Bachelor of Computer Engineering",
+          "trigger": "exit"
+        }
+      ]
+    },
+    {
+      "year": 2007,
+      "events": []
+    },
+    {
+      "year": 2006,
+      "events": []
+    },
+    {
+      "year": 2005,
+      "events": []
+    },
+    {
+      "year": 2004,
+      "events": [
+        {
+          "eventType": "education",
+          "degreeName": "Bachelor of Computer Engineering",
+          "trigger": "entry"
+        }
+      ]
+    },
+    {
+      "year": 1986,
+      "events": [
+        {
+          "eventType": "born"
+        }
+      ]
+    }
+  ]
+}

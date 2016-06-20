@@ -55,6 +55,9 @@
 }
 // Product filter modal
 .product-filter-modal {
+	.scroll {
+		height: 100%;
+	}
 	ion-header-bar {
 		.button.button-clear {
 			color: #000;
@@ -64,6 +67,29 @@
 		border-bottom: 1px solid $lightGray;
 		padding-bottom: 4px;
 		font-size: 16px;
+	}
+	.brand-container {
+		span {
+			border: 1px solid $gray;
+			padding: 5px;
+			margin: 5px;
+			display: inline-block;
+			border-radius: 10px;
+		}
+		span.active {
+			background-color: $redThemeColor;
+    		color: #fff;
+		}
+	}
+	.out-of-stock-toggle {
+		float: right;
+	}
+	.button.button-stable {
+		background-color: $redThemeColor;
+		color: #fff;
+		position: absolute;
+  		bottom: 0px;
+  		right: 0px;
 	}
 }
 // Product details page
@@ -103,5 +129,20 @@
 			font-weight: 500;
 			display: block;
 		}
+	}
+}
+
+// Timeline Page
+.timeline-page {
+	.year {
+		background-color: #fff;
+		font-size: 24px;
+		text-align: center;
+	    margin-bottom: 15px;
+    	padding-top: 5px;
+	}
+	.event {
+		text-align: center;
+		margin-bottom: 10px;
 	}
 }

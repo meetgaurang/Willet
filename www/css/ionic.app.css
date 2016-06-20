@@ -9913,10 +9913,6 @@ $font-size-small:                 11px !default;
   .bar.bar-stable .header-item {
     color: #fff; }
 
-.button.button-stable {
-  background-color: #BC212D;
-  color: #fff; }
-
 ion-content .scroll {
   padding: 10px 10px 0px 10px; }
 
@@ -10018,6 +10014,9 @@ ion-content .scroll {
 .home-page .ion-funnel:before {
   padding-top: 7px; }
 
+.product-filter-modal .scroll {
+  height: 100%; }
+
 .product-filter-modal ion-header-bar .button.button-clear {
   color: #000; }
 
@@ -10025,6 +10024,27 @@ ion-content .scroll {
   border-bottom: 1px solid #ddd;
   padding-bottom: 4px;
   font-size: 16px; }
+
+.product-filter-modal .brand-container span {
+  border: 1px solid #808080;
+  padding: 5px;
+  margin: 5px;
+  display: inline-block;
+  border-radius: 10px; }
+
+.product-filter-modal .brand-container span.active {
+  background-color: #BC212D;
+  color: #fff; }
+
+.product-filter-modal .out-of-stock-toggle {
+  float: right; }
+
+.product-filter-modal .button.button-stable {
+  background-color: #BC212D;
+  color: #fff;
+  position: absolute;
+  bottom: 0px;
+  right: 0px; }
 
 .product-details-page .product-images-carousel .item {
   text-align: center;
@@ -10050,3 +10070,14 @@ ion-content .scroll {
 .product-details-page .review-n-details-container .specs-title {
   font-weight: 500;
   display: block; }
+
+.timeline-page .year {
+  background-color: #fff;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 15px;
+  padding-top: 5px; }
+
+.timeline-page .event {
+  text-align: center;
+  margin-bottom: 10px; }

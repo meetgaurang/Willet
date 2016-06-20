@@ -6,6 +6,7 @@ angular.module('appwillet.controllers')
   	$scope.isMoreProductsAvailable = true;
   	getAllProductsService.getAllProducts().then(function successCallback(response){
   		$scope.allProducts = response.data.mobiles;
+      $scope.filterValues = response.data.filterValues;
   	},
   	function errorCallback(error){
   		alert("Error..");
@@ -38,6 +39,9 @@ angular.module('appwillet.controllers')
           step: 1,
           noSwitching: true
       }
+    };
+    $scope.toggleProductSelected = function($event) {
+      $($event.currentTarget).toggleClass("active");
     };
 
   	// Load next page

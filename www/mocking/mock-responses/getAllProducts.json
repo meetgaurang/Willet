@@ -90,5 +90,41 @@
       "largeImage": "img/products/sony-xperia-z5-premium-large.jpeg",
       "price": 39999
     }
-  ]
+  ],
+  "filterValues" : {
+    "brands" :[
+      {
+        "brandId": 0,
+        "brandName": "Apple"
+      },
+      {
+        "brandId": 1,
+        "brandName": "Blackberry"
+      },
+      {
+        "brandId": 2,
+        "brandName": "HTC"
+      },
+      {
+        "brandId": 3,
+        "brandName": "Huawei"
+      },
+      {
+        "brandId": 4,
+        "brandName": "LG"
+      },
+      {
+        "brandId": 5,
+        "brandName": "Motorola"
+      },
+      {
+        "brandId": 6,
+        "brandName": "Samsung"
+      }
+    ],
+    "price": {
+      "maxValue": 30000,
+      "minValue": 80000 
+    }
+  }
 }

@@ -2,6 +2,7 @@
 	<ion-header-bar>
 	  <button class="button button-clear button-primary" ng-click="closeFilterModal()">Cancel</button>
 	  <h1 class="title">Filter</h1>
+	  <button class="button button-clear button-primary">Reset All</button>
 	</ion-header-bar>
 	<ion-content>
 	  <h4>Price</h4>
@@ -9,8 +10,21 @@
           rz-slider-high="slider.maxValue"
           rz-slider-options="slider.options"></rzslider>
 	  <h4>Brands</h4>
+	  <div class="brand-container">
+	  	<span ng-repeat="eachBrand in filterValues.brands"
+	  		ng-click="toggleProductSelected($event)">{{eachBrand.brandName}}</span>
+	  </div>
 	  <h4>In Stock</h4>
-	  <button class="button button-full button-stable">
+	  <div>
+	  	<label>Include out of stock products </label>
+		<label class="toggle out-of-stock-toggle">
+			<input type="checkbox">
+		  	<div class="track">
+		  		<div class="handle"></div>
+			</div>
+		</label>
+	  </div>
+	  <button class="button button-full button-stable" ng-click="closeFilterModal()">
 		Apply
 	  </button>
 	</ion-content>
