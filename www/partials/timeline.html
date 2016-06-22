@@ -3,7 +3,37 @@
 </div>
 <ion-view view-title="Timeline" class="timeline-page">
   <ion-content class="has-subheader">
-    <div class="year">
+  	<div ng-repeat="eachYear in timelineData">
+  		<div class="year">
+    		<span>{{eachYear.year}}</span>
+    	</div>
+    	<div ng-repeat="eachEvent in eachYear.events">
+    		<div ng-if="eachEvent.eventType == 'work-experience'" class="event">
+	    		<span ng-if="eachEvent.trigger == 'entry'">Started working with {{eachEvent.companyName}}</span>
+	    		<span ng-if="eachEvent.trigger == 'exit'">Quit {{eachEvent.companyName}}</span>
+	    	</div>
+	    	<div ng-if="eachEvent.eventType == 'training'" class="event">
+	    		<span ng-if="eachEvent.trigger == 'entry'">Started training at {{eachEvent.companyName}}</span>
+	    		<span ng-if="eachEvent.trigger == 'exit'">Finished training at {{eachEvent.companyName}}</span>
+	    	</div>
+	    	<div ng-if="eachEvent.eventType == 'certification'" class="event">
+	    		<span>{{eachEvent.certificationName}}</span>
+	    	</div>
+	    	<div ng-if="eachEvent.eventType == 'bon-voyage'" class="event">
+	    		<span ng-if="eachEvent.purpose == 'vacation'">A Vacation in </span>
+	    		<span ng-if="eachEvent.purpose == 'business-trip'">A Business Trip to </span>
+	    		<span>{{ eachEvent.place}}</span>
+	    	</div>
+	    	<div ng-if="eachEvent.eventType == 'education'" class="event">
+	    		<span ng-if="eachEvent.trigger == 'entry'">Started {{eachEvent.degreeName}}</span>
+	    		<span ng-if="eachEvent.trigger == 'exit'">Finished {{eachEvent.degreeName}}</span>
+	    	</div>
+	    	<div ng-if="eachEvent.eventType == 'born'" class="event">
+	    		<span>Born</span>
+	    	</div>
+	    </div>
+    </div>
+    <!-- <div class="year">
     	<span>2016</span>
     </div>
     <div class="event">
@@ -50,6 +80,6 @@
     </div>
     <div class="event">
     	<span>Completed Secondary Education</span>
-    </div>
+    </div> -->
   </ion-content>
 </ion-view>

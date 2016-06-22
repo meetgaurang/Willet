@@ -9,4 +9,7 @@ angular.module('appwillet')
 	$httpBackend.whenGET('http://localhost:8080/willet/services/products').respond(
 		$resource("mocking/mock-responses/getAllProducts.json").get()
 	);
+	$httpBackend.whenGET('http://localhost:8080/willet/services/timeline').respond(
+		$resource("mocking/mock-responses/getTimelineData.json").get()
+	);
 }]);

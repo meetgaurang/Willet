@@ -1,5 +1,5 @@
 angular.module('appwillet.controllers')
-.controller('TimelineController', function($scope, $ionicModal, $timeout) {
+.controller('TimelineController', ['$scope', 'getTimelineDataService', function($scope, getTimelineDataService) {
 
   // With the new view caching in Ionic, Controllers are only called
   // when they are recreated or on app start, instead of every page change.
@@ -7,6 +7,12 @@ angular.module('appwillet.controllers')
   // listen for the $ionicView.enter event:
   //$scope.$on('$ionicView.enter', function(e) {
   //});
+	getTimelineDataService.getTimelineData().then(function successCallback(response){
+  		$scope.timelineData = response.data.timelineData;
+  	},
+  	function errorCallback(error){
+  		alert("Error..");
+  	});
 
 
-});
+}]);

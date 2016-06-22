@@ -1,11 +1,12 @@
 {
-  "data": [
+  "timelineData": [
     {
       "year": 2016,
       "events": [
         {
           "eventType": "bon-voyage",
-          "place": "Goa, India"
+          "place": "Goa, India",
+          "purpose": "vacation"
         }
       ]
     },
@@ -14,7 +15,8 @@
       "events": [
         {
           "eventType": "bon-voyage",
-          "place": "Cape Town, South Africa"
+          "place": "Cape Town, South Africa",
+          "purpose": "business-trip"
         },
         {
           "eventType": "work-experience",
@@ -33,7 +35,8 @@
       "events": [
         {
           "eventType": "bon-voyage",
-          "place": "Chicago, United States"
+          "place": "Chicago, United States",
+          "purpose": "business-trip"
         }
       ]
     },
@@ -42,11 +45,13 @@
       "events": [
         {
           "eventType": "bon-voyage",
-          "place": "Tel Aviv, Jerusalem (Israel)"
-        }
+          "place": "Tel Aviv, Jerusalem (Israel)",
+          "purpose": "business-trip"
+        },
         {
           "eventType": "bon-voyage",
-          "place": "Phuket, Thailand"
+          "place": "Phuket, Thailand",
+          "purpose": "vacation"
         }
       ]
     },
@@ -55,7 +60,8 @@
       "events": [
         {
           "eventType": "bon-voyage",
-          "place": "Tel Aviv, Jerusalem (Israel)"
+          "place": "Tel Aviv, Jerusalem (Israel)",
+          "purpose": "business-trip"
         }
       ]
     },

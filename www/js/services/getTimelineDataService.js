@@ -1,12 +1,12 @@
 angular.module('appwillet.services')
-.factory('getAllProductsService', ['$http', function($http) {
+.factory('getTimelineDataService', ['$http', function($http) {
 	// factory returns an object
   	// you can run some code before
 	return {
-		getAllProducts : function() {
+		getTimelineData : function() {
 			return $http({
 				"method": "GET",
-				"url": "http://localhost:8080/willet/services/products"
+				"url": "http://localhost:8080/willet/services/timeline"
 			});
 		}
 	}
