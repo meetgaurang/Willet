@@ -138,11 +138,66 @@
 		background-color: #fff;
 		font-size: 24px;
 		text-align: center;
-	    margin-bottom: 15px;
-    	padding-top: 5px;
+	    margin-top: 15px;
+    	margin-bottom: 10px;
+    	padding: 5px 0px;
+    	color: $redThemeColor;
+	}
+	div .year:first-child {
+		margin-top: 0px;
 	}
 	.event {
 		text-align: center;
 		margin-bottom: 10px;
+		padding: 5px 0px;
+	    background-color: $lightGray;
+	    box-shadow: 0 1px 3px rgb(101, 94, 94);
+    	border-radius: 8px;
+	}
+	.vertical-line {
+	    position: absolute;
+	    left: 50%;
+	    width: 1px;
+    	background-color: $gray;
+    	height: 100%;
+    	z-index: -1;
+	}
+	.filter-icon {
+		position: absolute;
+		bottom: 10px;
+    	right: 10px;
+    	font-size: 25px;
+    	color: #fff;
+	    background-color: $redThemeColor;
+	    opacity: 0.7;
+	    text-align: center;
+	    width: 40px;
+	    border-radius: 20px;
+	    height: 40px;
+	}
+	.ion-funnel:before {
+		padding-top: 7px;
+	}
+}
+.timeline-filter-modal {
+	.col {
+		text-align: center;
+		color: $gray;
+
+		.icon-container {
+			display: inline-block;
+			width: 60px;
+			height: 60px;
+			background-color: $lightGray;	
+			border-radius: 30px;
+			padding-top: 10px;
+			i {	
+				font-size: 38px;
+			}
+			span {
+				position: relative;
+	    		top: 10px;
+			}
+		}
 	}
 }

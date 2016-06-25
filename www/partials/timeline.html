@@ -3,6 +3,8 @@
 </div>
 <ion-view view-title="Timeline" class="timeline-page">
   <ion-content class="has-subheader">
+  	<div class="vertical-line">
+  	</div>
   	<div ng-repeat="eachYear in timelineData">
   		<div class="year">
     		<span>{{eachYear.year}}</span>
@@ -33,53 +35,8 @@
 	    	</div>
 	    </div>
     </div>
-    <!-- <div class="year">
-    	<span>2016</span>
-    </div>
-    <div class="event">
-    	<span>Started Working with Zensar Technologies</span>
-    </div>
-    <div class="event">
-    	<span>Quit Amdocs</span>
-    </div>
-    <div class="year">
-    	<span>2012</span>
-    </div>
-    <div class="event">
-    	<span>Started Working with Zensar Technologies</span>
-    </div>
-    <div class="event">
-    	<span>Quit HSBC</span>
-    </div>
-    <div class="year">
-    	<span>2009</span>
-    </div>
-    <div class="event">
-    	<span>Started Working with HSBC</span>
-    </div>
-    <div class="event">
-    	<span>Finished training at Seed Infotech</span>
-    </div>
-    <div class="year">
-    	<span>2008</span>
-    </div>
-    <div class="event">
-    	<span>Started Training at Seed Infotech</span>
-    </div>
-    <div class="event">
-    	<span>Completed Bachelor of Engineering (Computer)</span>
-    </div>
-    <div class="year">
-    	<span>2006</span>
-    </div>
-    <div class="event">
-    	<span>Completed Higher Secondary Education</span>
-    </div>
-    <div class="year">
-    	<span>2004</span>
-    </div>
-    <div class="event">
-    	<span>Completed Secondary Education</span>
-    </div> -->
   </ion-content>
+  <div class="filter-icon" ng-click="showAlert()">
+	<i class="icon ion-funnel"></i>
+  </div>
 </ion-view>

@@ -45,7 +45,7 @@
       "events": [
         {
           "eventType": "bon-voyage",
-          "place": "Tel Aviv, Jerusalem (Israel)",
+          "place": "Tel Aviv, Israel",
           "purpose": "business-trip"
         },
         {
@@ -60,7 +60,7 @@
       "events": [
         {
           "eventType": "bon-voyage",
-          "place": "Tel Aviv, Jerusalem (Israel)",
+          "place": "Tel Aviv, Israel",
           "purpose": "business-trip"
         }
       ]
@@ -122,18 +122,6 @@
           "trigger": "exit"
         }
       ]
-    },
-    {
-      "year": 2007,
-      "events": []
-    },
-    {
-      "year": 2006,
-      "events": []
-    },
-    {
-      "year": 2005,
-      "events": []
     },
     {
       "year": 2004,
