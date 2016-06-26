@@ -1,8 +1,6 @@
-<div class="bar bar-subheader">
-  <img src="img/avatar.jpg"></img>
-</div>
 <ion-view view-title="Timeline" class="timeline-page">
-  <ion-content class="has-subheader">
+  <ion-content>
+  	<img class="profile-image" src="img/avatar.jpg"></img>
   	<div class="vertical-line">
   	</div>
   	<div ng-repeat="eachYear in timelineData">
@@ -36,7 +34,7 @@
 	    </div>
     </div>
   </ion-content>
-  <div class="filter-icon" ng-click="showAlert()">
+  <div class="filter-icon" ng-click="openFilterModal($event)">
 	<i class="icon ion-funnel"></i>
   </div>
 </ion-view>

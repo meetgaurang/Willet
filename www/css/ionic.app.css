@@ -9912,6 +9912,11 @@ $font-size-small:                 11px !default;
   .bar.bar-stable .header-item {
     color: #fff; }
 
+.button.button-stable {
+  background-color: #BC212D;
+  opacity: 0.7;
+  color: #fff; }
+
 ion-content .scroll {
   padding: 10px 10px 0px 10px; }
 
@@ -10070,6 +10075,11 @@ ion-content .scroll {
   font-weight: 500;
   display: block; }
 
+.timeline-page .profile-image {
+  display: block;
+  margin: auto;
+  border-radius: 50px; }
+
 .timeline-page .year {
   background-color: #fff;
   font-size: 24px;
@@ -10092,10 +10102,11 @@ ion-content .scroll {
 
 .timeline-page .vertical-line {
   position: absolute;
+  bottom: 5px;
   left: 50%;
   width: 1px;
   background-color: #808080;
-  height: 100%;
+  height: 98%;
   z-index: -1; }
 
 .timeline-page .filter-icon {
@@ -10114,18 +10125,28 @@ ion-content .scroll {
 .timeline-page .ion-funnel:before {
   padding-top: 7px; }
 
-.timeline-filter-modal .col {
-  text-align: center;
-  color: #808080; }
-  .timeline-filter-modal .col .icon-container {
+.timeline-filter-popup .popup {
+  width: 270px !important; }
+
+.timeline-filter-popup .popup-head {
+  display: none; }
+
+.timeline-filter-popup .col {
+  text-align: center; }
+  .timeline-filter-popup .col .icon-container {
     display: inline-block;
     width: 60px;
     height: 60px;
-    background-color: #ddd;
+    color: #808080;
+    border: 2px solid #808080;
     border-radius: 30px;
     padding-top: 10px; }
-    .timeline-filter-modal .col .icon-container i {
+    .timeline-filter-popup .col .icon-container i {
       font-size: 38px; }
-    .timeline-filter-modal .col .icon-container span {
+    .timeline-filter-popup .col .icon-container span {
       position: relative;
       top: 10px; }
+  .timeline-filter-popup .col .icon-container.active {
+    color: #BC212D;
+    border: 2px solid #BC212D;
+    opacity: 0.7; }

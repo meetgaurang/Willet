@@ -1,6 +1,6 @@
 angular.module('appwillet.controllers')
-.controller('TimelineController', ['$scope', 'getTimelineDataService', '$ionicPopup', 
-	function($scope, getTimelineDataService, $ionicPopup) {
+.controller('TimelineController', ['$scope', 'getTimelineDataService', '$ionicModal', '$ionicPopup', '$ionicPopover',
+	function($scope, getTimelineDataService, $ionicModal, $ionicPopup, $ionicPopover) {
 
   // With the new view caching in Ionic, Controllers are only called
   // when they are recreated or on app start, instead of every page change.
@@ -11,8 +11,8 @@ angular.module('appwillet.controllers')
 
 	$scope.filterSelection = {
 		"education": false,
-		"work-experience": true,
-		"bon-voyage": false,
+		"experience": true,
+		"explorer": false,
 		"certifications": false
 	};
 	getTimelineDataService.getTimelineData().then(function successCallback(response){
@@ -22,15 +22,20 @@ angular.module('appwillet.controllers')
   		alert("Error..");
   	});
 
-  	$scope.showAlert = function() {
+  	$scope.openFilterModal = function($event) {
 	   var alertPopup = $ionicPopup.alert({
 	     //title: 'Don\'t eat that!',
-	     cssClass: 'timeline-filter-modal',
-	     templateUrl: 'partials/timelinefiltermodal.html'
+	     cssClass: 'timeline-filter-popup',
+	     templateUrl: 'partials/timelinefiltermodal.html',
+	     scope: $scope,
+	     buttons: [{
+		    text: 'OK',
+		    type: 'button-stable'
+		  }]
 	   });
 
 	   alertPopup.then(function(res) {
-	     console.log('Thank you for not eating my delicious ice cream cone');
+	     console.log('Closing..');
 	   });
 	 };
 

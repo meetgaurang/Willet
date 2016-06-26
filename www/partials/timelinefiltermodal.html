@@ -1,28 +1,36 @@
 <div class="row">
 	<div class="col">
-		<div class="icon-container">
+		<div ng-click="filterSelection.experience = !filterSelection.experience" 
+			ng-class="{active: filterSelection.experience == true}" class="icon-container">
 			<i class="ion-monitor"></i>
 		</div>
-		<span>Experience</span>
+		<br>
+		<span>Work Experience</span>
 	</div>
 	<div class="col">
-		<div class="icon-container">
+		<div ng-click="filterSelection.certifications = !filterSelection.certifications" 
+			ng-class="{active: filterSelection.certifications == true}" class="icon-container">
 			<i class="ion-document-text"></i>
 		</div>
+		<br>
 		<span>Certifications</span>
 	</div>
 </div>
 <div class="row">
 	<div class="col">
-		<div class="icon-container">
+		<div ng-click="filterSelection.explorer = !filterSelection.explorer" 
+			ng-class="{active: filterSelection.explorer == true}" class="icon-container">
 			<i class="ion-plane"></i>
 		</div>
+		<br>
 		<span>Explorer</span>
 	</div>
 	<div class="col">
-		<div class="icon-container">
+		<div ng-click="filterSelection.education = !filterSelection.education" 
+			ng-class="{active: filterSelection.education == true}" class="icon-container">
 			<i class="ion-university"></i>
 		</div>
+		<br>
 		<span>Education</span>
 	</div>
 </div>
