@@ -18,8 +18,8 @@ angular.module('appwillet.directives')
  	return {
 	    link: function(scope, element, attrs){
 	    	$(element).find('a').click(function (e) {
-			  e.preventDefault()
-			  $(this).tab('show')
+			  e.preventDefault();
+			  $(this).tab('show');
 			});
 		}
 	};

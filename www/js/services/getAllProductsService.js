@@ -9,5 +9,5 @@ angular.module('appwillet.services')
 				"url": "http://localhost:8080/willet/services/products"
 			});
 		}
-	}
+	};
 }]);

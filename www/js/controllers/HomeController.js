@@ -66,6 +66,6 @@ angular.module('appwillet.controllers')
 
   	$scope.loadDetails = function(product) {
       $rootScope.selectedProduct = product;
-  		$state.go("app.productdetails")
-  	}
+  		$state.go("app.productdetails");
+  	};
 }]);
