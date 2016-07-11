@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <widget id="com.ionicframework.willet831023" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-  <name>willet</name>
+  <name>Willet</name>
   <description>
-        The app built to demonstrate the capabilities in Frontend technologies
+        This is a demo app
     </description>
   <author email="meetgaurang@gmail.com" href="https://github.com/meetgaurang">
       Gaurang Patel
