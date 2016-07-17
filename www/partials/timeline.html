@@ -1,8 +1,9 @@
 <ion-view view-title="Timeline" class="timeline-page">
+  <div class="vertical-line">
+  </div>
   <ion-content>
   	<img class="profile-image" src="img/avatar.jpg"></img>
-  	<div class="vertical-line">
-  	</div>
+  	
   	<div ng-repeat="eachYear in timelineData">
   		<div class="year">
     		<span>{{eachYear.year}}</span>
@@ -28,7 +29,7 @@
 	    		<span ng-if="eachEvent.trigger == 'entry'">Started {{eachEvent.degreeName}}</span>
 	    		<span ng-if="eachEvent.trigger == 'exit'">Finished {{eachEvent.degreeName}}</span>
 	    	</div>
-	    	<div ng-if="eachEvent.eventType == 'born'" class="event">
+	    	<div ng-if="eachEvent.eventType == 'born'" class="event born">
 	    		<span>Born</span>
 	    	</div>
 	    </div>

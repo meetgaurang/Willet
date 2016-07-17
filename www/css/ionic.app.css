@@ -9848,57 +9848,54 @@ $font-size-small:                 11px !default;
 .rzslider .rz-bar.rz-selection {
   background: #BC212D; }
 
-.sidebar-content .scroll {
-  padding: 0px; }
-
-.sidebar-content .sidebar-willet-logo-container {
-  /*text-align: center;
+.sidebar-content {
+  overflow-y: auto; }
+  .sidebar-content .scroll {
+    padding: 0px; }
+  .sidebar-content .sidebar-willet-logo-container {
+    /*text-align: center;
 		padding: 10px 20px 10px 0px;
 	    color: #fff;*/ }
-  .sidebar-content .sidebar-willet-logo-container img {
-    width: 300px;
-    position: relative;
-    left: 50px;
-    opacity: 0.5; }
-  .sidebar-content .sidebar-willet-logo-container h3 {
-    display: inline;
-    font-size: 30px;
+    .sidebar-content .sidebar-willet-logo-container img {
+      width: 300px;
+      position: relative;
+      left: 50px;
+      opacity: 0.5; }
+    .sidebar-content .sidebar-willet-logo-container h3 {
+      display: inline;
+      font-size: 30px;
+      color: #BC212D;
+      position: relative;
+      bottom: 20px; }
+  .sidebar-content .welcome-username {
+    padding: 4px 0 0 16px;
+    height: 32px;
+    vertical-align: middle;
+    background-color: #BC212D; }
+    .sidebar-content .welcome-username h5 {
+      color: #fff;
+      margin: 0px;
+      display: inline;
+      position: relative;
+      bottom: 7px; }
+    .sidebar-content .welcome-username img {
+      width: 24px;
+      border-radius: 12px; }
+  .sidebar-content ion-item {
+    font-size: 16px; }
+    .sidebar-content ion-item div {
+      display: inline-block;
+      width: 15px; }
+  .sidebar-content .scroll {
+    height: 100%; }
+  .sidebar-content .copyright-content {
+    position: fixed;
+    bottom: 0px;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 100%;
     color: #BC212D;
-    position: relative;
-    bottom: 20px; }
-
-.sidebar-content .welcome-username {
-  padding: 4px 0 0 16px;
-  height: 30px;
-  vertical-align: middle;
-  background-color: #BC212D; }
-  .sidebar-content .welcome-username h5 {
-    color: #fff;
-    margin: 0px;
-    display: inline-block;
-    position: relative;
-    bottom: 5px; }
-  .sidebar-content .welcome-username img {
-    width: 24px;
-    border-radius: 12px; }
-
-.sidebar-content ion-item {
-  font-size: 16px; }
-  .sidebar-content ion-item div {
-    display: inline-block;
-    width: 15px; }
-
-.sidebar-content .scroll {
-  height: 100%; }
-
-.sidebar-content .copyright-content {
-  position: fixed;
-  bottom: 0px;
-  padding-bottom: 10px;
-  text-align: center;
-  width: 100%;
-  color: #BC212D;
-  font-size: 12px; }
+    font-size: 12px; }
 
 .spinner svg {
   stroke: rgba(188, 33, 45, 0.7); }
@@ -9920,57 +9917,54 @@ $font-size-small:                 11px !default;
 ion-content .scroll {
   padding: 10px 10px 0px 10px; }
 
-.sidebar-content .scroll {
-  padding: 0px; }
-
-.sidebar-content .sidebar-willet-logo-container {
-  /*text-align: center;
+.sidebar-content {
+  overflow-y: auto; }
+  .sidebar-content .scroll {
+    padding: 0px; }
+  .sidebar-content .sidebar-willet-logo-container {
+    /*text-align: center;
 		padding: 10px 20px 10px 0px;
 	    color: #fff;*/ }
-  .sidebar-content .sidebar-willet-logo-container img {
-    width: 300px;
-    position: relative;
-    left: 50px;
-    opacity: 0.5; }
-  .sidebar-content .sidebar-willet-logo-container h3 {
-    display: inline;
-    font-size: 30px;
+    .sidebar-content .sidebar-willet-logo-container img {
+      width: 300px;
+      position: relative;
+      left: 50px;
+      opacity: 0.5; }
+    .sidebar-content .sidebar-willet-logo-container h3 {
+      display: inline;
+      font-size: 30px;
+      color: #BC212D;
+      position: relative;
+      bottom: 20px; }
+  .sidebar-content .welcome-username {
+    padding: 4px 0 0 16px;
+    height: 32px;
+    vertical-align: middle;
+    background-color: #BC212D; }
+    .sidebar-content .welcome-username h5 {
+      color: #fff;
+      margin: 0px;
+      display: inline;
+      position: relative;
+      bottom: 7px; }
+    .sidebar-content .welcome-username img {
+      width: 24px;
+      border-radius: 12px; }
+  .sidebar-content ion-item {
+    font-size: 16px; }
+    .sidebar-content ion-item div {
+      display: inline-block;
+      width: 15px; }
+  .sidebar-content .scroll {
+    height: 100%; }
+  .sidebar-content .copyright-content {
+    position: fixed;
+    bottom: 0px;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 100%;
     color: #BC212D;
-    position: relative;
-    bottom: 20px; }
-
-.sidebar-content .welcome-username {
-  padding: 4px 0 0 16px;
-  height: 30px;
-  vertical-align: middle;
-  background-color: #BC212D; }
-  .sidebar-content .welcome-username h5 {
-    color: #fff;
-    margin: 0px;
-    display: inline-block;
-    position: relative;
-    bottom: 5px; }
-  .sidebar-content .welcome-username img {
-    width: 24px;
-    border-radius: 12px; }
-
-.sidebar-content ion-item {
-  font-size: 16px; }
-  .sidebar-content ion-item div {
-    display: inline-block;
-    width: 15px; }
-
-.sidebar-content .scroll {
-  height: 100%; }
-
-.sidebar-content .copyright-content {
-  position: fixed;
-  bottom: 0px;
-  padding-bottom: 10px;
-  text-align: center;
-  width: 100%;
-  color: #BC212D;
-  font-size: 12px; }
+    font-size: 12px; }
 
 .home-page .card {
   margin: 0px 0px; }
@@ -10037,8 +10031,8 @@ ion-content .scroll {
   border-radius: 10px; }
 
 .product-filter-modal .brand-container span.active {
-  background-color: #BC212D;
-  color: #fff; }
+  color: #BC212D;
+  border-color: #BC212D; }
 
 .product-filter-modal .out-of-stock-toggle {
   float: right; }
@@ -10100,13 +10094,18 @@ ion-content .scroll {
   box-shadow: 0 1px 3px #655e5e;
   border-radius: 8px; }
 
+.timeline-page .event.born {
+  position: relative;
+  bottom: 10px;
+  margin-top: 20px; }
+
 .timeline-page .vertical-line {
   position: absolute;
-  bottom: 5px;
+  bottom: 10px;
   left: 50%;
   width: 1px;
   background-color: #808080;
-  height: 98%;
+  height: 88%;
   z-index: -1; }
 
 .timeline-page .filter-icon {
