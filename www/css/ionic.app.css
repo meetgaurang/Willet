@@ -10149,3 +10149,27 @@ ion-content .scroll {
     color: #BC212D;
     border: 2px solid #BC212D;
     opacity: 0.7; }
+
+.about-page .bg-container {
+  background-color: #808080;
+  opacity: 0.3;
+  height: 100%; }
+  .about-page .bg-container img {
+    height: 100%; }
+
+.about-page ion-content .scroll {
+  height: 100%; }
+
+.about-page ion-content .info-container {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  text-align: center; }
+  .about-page ion-content .info-container div {
+    margin-bottom: 8px; }
+  .about-page ion-content .info-container .name {
+    font-size: 30px; }
+  .about-page ion-content .info-container .post {
+    font-size: 20px; }
+  .about-page ion-content .info-container .links img {
+    width: 30px; }

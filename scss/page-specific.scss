@@ -223,3 +223,38 @@
 		}
 	}
 }
+.about-page {
+    .bg-container {
+    	background-color: $gray;
+		opacity: 0.3;
+		height: 100%;
+	    img {
+			height: 100%;
+	    }
+    }
+	ion-content {
+		.scroll {
+			height: 100%;
+		}
+		.info-container {
+			position: absolute;
+    		bottom: 20px;
+    		width: 100%;
+    		text-align: center;
+    		div {
+    			margin-bottom: 8px;
+    		}
+    		.name {
+    			font-size:30px;
+    		}
+    		.post {
+    			font-size: 20px;
+    		}
+    		.links {
+    			img {
+    				width: 30px;
+    			}
+    		}
+    	}
+	}
+}
