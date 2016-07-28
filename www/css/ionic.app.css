@@ -10037,12 +10037,14 @@ ion-content .scroll {
 .product-filter-modal .out-of-stock-toggle {
   float: right; }
 
-.product-filter-modal .button.button-stable {
-  background-color: #BC212D;
-  color: #fff;
+.product-filter-modal .apply-button-container {
   position: absolute;
   bottom: 0px;
-  right: 0px; }
+  right: 10px;
+  left: 10px; }
+  .product-filter-modal .apply-button-container .button.button-stable {
+    background-color: #BC212D;
+    color: #fff; }
 
 .product-details-page .product-images-carousel .item {
   text-align: center;
@@ -10168,8 +10170,10 @@ ion-content .scroll {
   .about-page ion-content .info-container div {
     margin-bottom: 8px; }
   .about-page ion-content .info-container .name {
-    font-size: 30px; }
+    font-size: 30px;
+    color: #6f6f6f; }
   .about-page ion-content .info-container .post {
-    font-size: 20px; }
+    font-size: 20px;
+    color: #808080; }
   .about-page ion-content .info-container .links img {
     width: 30px; }

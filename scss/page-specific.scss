@@ -84,12 +84,16 @@
 	.out-of-stock-toggle {
 		float: right;
 	}
-	.button.button-stable {
-		background-color: $redThemeColor;
-		color: #fff;
+	.apply-button-container {
 		position: absolute;
-  		bottom: 0px;
-  		right: 0px;
+    	bottom: 0px;
+    	right: 10px;
+    	left: 10px;
+    	
+		.button.button-stable {
+			background-color: $redThemeColor;
+			color: #fff;
+		}
 	}
 }
 // Product details page
@@ -246,9 +250,11 @@
     		}
     		.name {
     			font-size:30px;
+    			color: $darkGray;
     		}
     		.post {
     			font-size: 20px;
+    			color: $gray;
     		}
     		.links {
     			img {
