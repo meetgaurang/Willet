@@ -9,28 +9,29 @@
     		<span>{{eachYear.year}}</span>
     	</div>
     	<div ng-repeat="eachEvent in eachYear.events">
-    		<div ng-if="eachEvent.eventType == 'work-experience'" class="event">
+    		<div ng-if="eachEvent.eventType == 'work-experience' && filterSelection.experience == true" class="event">
 	    		<span ng-if="eachEvent.trigger == 'entry'">Started working with {{eachEvent.companyName}}</span>
 	    		<span ng-if="eachEvent.trigger == 'exit'">Quit {{eachEvent.companyName}}</span>
 	    	</div>
-	    	<div ng-if="eachEvent.eventType == 'training'" class="event">
+	    	<div ng-if="eachEvent.eventType == 'training' && filterSelection.experience == true" class="event">
 	    		<span ng-if="eachEvent.trigger == 'entry'">Started training at {{eachEvent.companyName}}</span>
 	    		<span ng-if="eachEvent.trigger == 'exit'">Finished training at {{eachEvent.companyName}}</span>
 	    	</div>
-	    	<div ng-if="eachEvent.eventType == 'certification'" class="event">
+	    	<div ng-if="eachEvent.eventType == 'certification' && filterSelection.certifications == true" class="event">
 	    		<span>{{eachEvent.certificationName}}</span>
 	    	</div>
-	    	<div ng-if="eachEvent.eventType == 'bon-voyage'" class="event">
+	    	<div ng-if="eachEvent.eventType == 'bon-voyage' && filterSelection.explorer == true" class="event">
 	    		<span ng-if="eachEvent.purpose == 'vacation'">A Vacation in </span>
 	    		<span ng-if="eachEvent.purpose == 'business-trip'">A Business Trip to </span>
 	    		<span>{{ eachEvent.place}}</span>
 	    	</div>
-	    	<div ng-if="eachEvent.eventType == 'education'" class="event">
+	    	<div ng-if="eachEvent.eventType == 'education' && filterSelection.education == true" class="event">
 	    		<span ng-if="eachEvent.trigger == 'entry'">Started {{eachEvent.degreeName}}</span>
 	    		<span ng-if="eachEvent.trigger == 'exit'">Finished {{eachEvent.degreeName}}</span>
 	    	</div>
 	    	<div ng-if="eachEvent.eventType == 'born'" class="event born">
-	    		<span>Born</span>
+	    		<img src="img/baby.png"></img>
+	    		<div>Born</div>
 	    	</div>
 	    </div>
     </div>

@@ -1,6 +1,6 @@
 <div class="row">
 	<div class="col">
-		<div ng-click="filterSelection.experience = !filterSelection.experience" 
+		<div ng-click="toggleFilterValue('experience')"
 			ng-class="{active: filterSelection.experience == true}" class="icon-container">
 			<i class="ion-monitor"></i>
 		</div>
@@ -8,7 +8,7 @@
 		<span>Work Experience</span>
 	</div>
 	<div class="col">
-		<div ng-click="filterSelection.certifications = !filterSelection.certifications" 
+		<div ng-click="toggleFilterValue('certifications')" 
 			ng-class="{active: filterSelection.certifications == true}" class="icon-container">
 			<i class="ion-document-text"></i>
 		</div>
@@ -18,7 +18,7 @@
 </div>
 <div class="row">
 	<div class="col">
-		<div ng-click="filterSelection.explorer = !filterSelection.explorer" 
+		<div ng-click="toggleFilterValue('explorer')" 
 			ng-class="{active: filterSelection.explorer == true}" class="icon-container">
 			<i class="ion-plane"></i>
 		</div>
@@ -26,7 +26,7 @@
 		<span>Explorer</span>
 	</div>
 	<div class="col">
-		<div ng-click="filterSelection.education = !filterSelection.education" 
+		<div ng-click="toggleFilterValue('education')" 
 			ng-class="{active: filterSelection.education == true}" class="icon-container">
 			<i class="ion-university"></i>
 		</div>

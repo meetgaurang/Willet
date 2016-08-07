@@ -1,6 +1,7 @@
 angular.module('appwillet.controllers')
 .controller('TimelineController', ['$scope', 'getTimelineDataService', '$ionicModal', '$ionicPopup', '$ionicPopover',
-	function($scope, getTimelineDataService, $ionicModal, $ionicPopup, $ionicPopover) {
+	'$ionicScrollDelegate',
+	function($scope, getTimelineDataService, $ionicModal, $ionicPopup, $ionicPopover, $ionicScrollDelegate) {
 
   // With the new view caching in Ionic, Controllers are only called
   // when they are recreated or on app start, instead of every page change.
@@ -10,11 +11,15 @@ angular.module('appwillet.controllers')
   //});
 
 	$scope.filterSelection = {
-		"education": false,
+		"education": true,
 		"experience": true,
-		"explorer": false,
-		"certifications": false
+		"explorer": true,
+		"certifications": true
 	};
+    $scope.toggleFilterValue = function(filterParam) {
+    	$scope.filterSelection[filterParam] = !$scope.filterSelection[filterParam];
+    	$ionicScrollDelegate.resize();
+    }
 	getTimelineDataService.getTimelineData().then(function successCallback(response){
   		$scope.timelineData = response.data.timelineData;
   	},
@@ -33,11 +38,8 @@ angular.module('appwillet.controllers')
 		    type: 'button-stable'
 		  }]
 	   });
-
 	   alertPopup.then(function(res) {
 	     console.log('Closing..');
 	   });
 	 };
-
-
 }]);

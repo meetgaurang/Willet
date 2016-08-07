@@ -10018,6 +10018,9 @@ ion-content .scroll {
 .product-filter-modal ion-header-bar .button.button-clear {
   color: #000; }
 
+.product-filter-modal ion-header-bar .title {
+  text-align: center !important; }
+
 .product-filter-modal h4 {
   border-bottom: 1px solid #ddd;
   padding-bottom: 4px;
@@ -10100,6 +10103,10 @@ ion-content .scroll {
   position: relative;
   bottom: 10px;
   margin-top: 20px; }
+  .timeline-page .event.born img {
+    width: 25px;
+    position: relative;
+    top: 5px; }
 
 .timeline-page .vertical-line {
   position: absolute;
@@ -10152,9 +10159,14 @@ ion-content .scroll {
     border: 2px solid #BC212D;
     opacity: 0.7; }
 
+.timeline-filter-popup .button.activated {
+  background-color: #BC212D;
+  opacity: 0.7;
+  color: #fff; }
+
 .about-page .bg-container {
   background-color: #808080;
-  opacity: 0.3;
+  opacity: 0.5;
   height: 100%; }
   .about-page .bg-container img {
     height: 100%; }
@@ -10173,7 +10185,7 @@ ion-content .scroll {
     font-size: 30px;
     color: #6f6f6f; }
   .about-page ion-content .info-container .post {
-    font-size: 20px;
+    font-size: 16px;
     color: #808080; }
   .about-page ion-content .info-container .links img {
     width: 30px; }
