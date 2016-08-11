@@ -4,6 +4,8 @@ if (process.env.TARGET=='"prod"') {
 	var useref = require('gulp-useref');
 	var fs = require('fs');
 	var del = require('del');
+	var uglify = require('gulp-uglify');
+	var gulpif = require('gulp-if');
 
 	gulp.task('duplicate-www', function(arg) {
 		return gulp.src(['./www/**/*']).pipe(gulp.dest('./www_bkup'));
@@ -19,6 +21,7 @@ if (process.env.TARGET=='"prod"') {
 		// Process index.html file as it already have input what all files should be merged into what
 		return gulp.src('./www_bkup/index.html')
 	      .pipe(useref())
+	      .pipe(gulpif('*.js', uglify()))
 	      .pipe(gulp.dest('./www/'));
 	});
 	gulp.start('default');
