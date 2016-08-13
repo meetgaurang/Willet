@@ -3,7 +3,6 @@
 
 node_modules/
 platforms/*
-!platforms/android/build/outputs/apk/willet-debug.apk
-!platforms/android/build/outputs/apk/willet-release.apk
+!platforms/android/build/outputs/apk/
 plugins/
 www/img/graphics-ignore/
