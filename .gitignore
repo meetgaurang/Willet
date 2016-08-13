@@ -2,7 +2,8 @@
 # http://git-scm.com/docs/gitignore
 
 node_modules/
-platforms/**/*
+!platforms/
+platforms/*
 !platforms/android/build/outputs/apk/
 plugins/
 www/img/graphics-ignore/
