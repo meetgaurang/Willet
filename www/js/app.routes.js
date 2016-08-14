@@ -1,5 +1,6 @@
 angular.module('appwillet')
-.config(function($stateProvider, $urlRouterProvider) {
+.config(['$stateProvider', '$urlRouterProvider',
+  function($stateProvider, $urlRouterProvider) {
   $stateProvider
   .state('app', {
     url: '/app',
@@ -46,4 +47,4 @@ angular.module('appwillet')
 
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/app/home');
-});
+}]);

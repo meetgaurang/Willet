@@ -1,5 +1,6 @@
 angular.module('appwillet.controllers')
-.controller('AboutController', function($scope, $ionicModal, $timeout) {
+.controller('AboutController', ['$scope', '$ionicModal', '$timeout',
+	function($scope, $ionicModal, $timeout) {
 
   // With the new view caching in Ionic, Controllers are only called
   // when they are recreated or on app start, instead of every page change.
@@ -9,4 +10,4 @@ angular.module('appwillet.controllers')
   //});
 
 
-});
+}]);

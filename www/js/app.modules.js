@@ -11,7 +11,7 @@ angular.module('appwillet', ['ionic', 'ngMockE2E', 'rzModule', 'ngResource', 'ap
   'appwillet.services', 'appwillet.directives']);
 
 angular.module('appwillet')
-.run(function($ionicPlatform) {
+.run(['$ionicPlatform', function($ionicPlatform) {
   $ionicPlatform.ready(function() {
     if(window.cordova && window.cordova.plugins.Keyboard) {
       // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
@@ -27,5 +27,5 @@ angular.module('appwillet')
       StatusBar.styleDefault();
     }
   });
-});
+}]);
 
