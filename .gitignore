@@ -7,3 +7,4 @@ platforms/*
 !platforms/android/build/outputs/apk/
 plugins/
 www/img/graphics-ignore/
+dist/
