@@ -6,6 +6,12 @@ This application is published [here](https://play.google.com/store/apps/details?
 ## Technologies Used
 Ionic, AngularJS, Javascript, HTML5, CSS3, SASS
 
+## How to start Development
+In Windows environment, execute **startWorking.bat** in the root directory.
+It does two things for you, 
+**ionic serve** - Run local express server and execute application over there. Further it listens for any change being made and reflects it.
+**gulp watch** - It listens for any change in SASS files and translate it to CSS files
+
 ## Application Screenshots
 1) Sidebar/Navigation Menu  
 ![](../master/screenshots/1-sidebar-menu.png)
