@@ -38,6 +38,6 @@ It does two things for you,
 ![](../master/screenshots/7-about.png)  
 
 ## Contact
-Feel free to re
-Email: meetgaurang@gmail.com
-Linkedin: https://www.linkedin.com/in/gaurang-patel-aa8a4622
+Feel free to reach me at meetgaurang@gmail.com or      
+[![LinkedIn](../master/docs/linkedin.png)](https://www.linkedin.com/in/gaurang-patel-aa8a4622)
+[![StackOverflow](../master/docs/so-logo.png)](https://stackoverflow.com/users/1069893/gaurang-patel?tab=topactivity)
