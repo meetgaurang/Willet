@@ -6,8 +6,11 @@ This application is published [here](https://play.google.com/store/apps/details?
 ## Technologies Used
 Ionic, AngularJS, Javascript, HTML5, CSS3, SASS
 
-## How to start Development
-In Windows environment, execute **startWorking.bat** in the root directory.  
+## 1-Click Build Process  
+![](../master/docs/willet-build-process.png)
+
+## How to start Development  
+In Windows environment, execute **startWorking.bat** in the root directory. It doesn't do some ground breaking stuff but saves at least 2 minutes of developer when she starts development.  
 It does two things for you,  
 **ionic serve** - Run local express server and execute application over there. Further it listens for any change being made and reflects it.  
 **gulp watch** - It listens for any change in SASS files and translate it to CSS files  
@@ -32,4 +35,9 @@ It does two things for you,
 ![](../master/screenshots/6-my-timeline-filter.png)
 
 7) About Page  
-![](../master/screenshots/7-about.png)
+![](../master/screenshots/7-about.png)  
+
+## Contact
+Feel free to reach me at meetgaurang@gmail.com or      
+[![LinkedIn](../master/docs/linkedin.png)](https://www.linkedin.com/in/gaurang-patel-aa8a4622)
+[![StackOverflow](../master/docs/so-logo.png)](https://stackoverflow.com/users/1069893/gaurang-patel?tab=topactivity)
