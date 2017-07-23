@@ -17,25 +17,25 @@ It does two things for you,
 
 ## Application Screenshots
 1) Sidebar/Navigation Menu  
-![](../master/docs/screenshots/1-sidebar-menu.png)
+![](../master/docs/app_screenshots/1-sidebar-menu.png)
 
 2) Product Catalogue Page  
-![](../master/docs/screenshots/2-dummy-store.png)
+![](../master/docs/app_screenshots/2-dummy-store.png)
 
 3) Filter for Product list Page  
-![](../master/docs/screenshots/3-dummy-store-filter.png)
+![](../master/docs/app_screenshots/3-dummy-store-filter.png)
 
 4) Product Details Page  
-![](../master/docs/screenshots/4-dummy-store-item-details.png)
+![](../master/docs/app_screenshots/4-dummy-store-item-details.png)
 
 5) My Timeline  
-![](../master/docs/screenshots/5-my-timeline.png)
+![](../master/docs/app_screenshots/5-my-timeline.png)
 
 6) Timeline Filter  
-![](../master/docs/screenshots/6-my-timeline-filter.png)
+![](../master/docs/app_screenshots/6-my-timeline-filter.png)
 
 7) About Page  
-![](../master/docs/screenshots/7-about.png)  
+![](../master/docs/app_screenshots/7-about.png)  
 
 ## Contact
 Feel free to reach me at meetgaurang@gmail.com or      
