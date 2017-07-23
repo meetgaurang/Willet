@@ -19,7 +19,7 @@ angular.module('appwillet.controllers')
     $scope.toggleFilterValue = function(filterParam) {
     	$scope.filterSelection[filterParam] = !$scope.filterSelection[filterParam];
     	$ionicScrollDelegate.resize();
-    }
+    };
 	getTimelineDataService.getTimelineData().then(function successCallback(response){
   		$scope.timelineData = response.data.timelineData;
   	},
