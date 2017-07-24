@@ -3,11 +3,14 @@ A dummy Ecommerce store made with Hybrid Technologies. The idea is to demonstrat
 
 This application is published [here](https://play.google.com/store/apps/details?id=com.ionicframework.willet831023&hl=en) at Android Playstore.
 
-## Technologies Used
+## Frontend Technologies Used
 Ionic, AngularJS, Javascript, HTML5, CSS3, SASS
 
-## 1-Click Build Process  
+## 1-Click Build Process (Manually Triggerred)  
 ![](../master/docs/build_diagrams/willet-build-process.png)
+
+## Jenkins Triggered Automatic Build Process  
+![](../master/docs/build_diagrams/jenkins-triggered-build-process.png)
 
 ## How to start Development  
 In Windows environment, execute **startWorking.bat** in the root directory. It doesn't do some ground breaking stuff but saves at least 2 minutes of developer when she starts development.  
